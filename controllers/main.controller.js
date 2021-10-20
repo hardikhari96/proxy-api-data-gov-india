@@ -30,6 +30,6 @@ module.exports = class mainControllerClass {
             17: { title: 'Ning nang', content: 'Blah blah blah...' },
         };
         const orderedPosts = Immutable.OrderedMap(results.map(key => [key, posts[key]]))
-        // console.log(orderedPosts.toJSON());
+        //console.log(orderedPosts.toJSON());
     }
 }
